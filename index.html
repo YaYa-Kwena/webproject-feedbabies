@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed the Babies Fund - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Feed the Babies Fund</h1>
+        <!-- Navigation menu for site-wide links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero section with introduction -->
+        <section>
+            <img src="images/hero-img.jpg" alt="Children receiving nutrition support">
+            <h2>Feeding Body and Mind</h2>
+            <p>Supporting rural children in KwaZulu-Natal through nutrition and early childhood development. Join us in making a difference in a child's life. Your contribution, whether through donations or volunteering, can create a lasting impact.</p>
+            <p><a href="enquiry.html" class="btn">Donate or volunteer today to make a difference!</a></p>
+        </section>
+        <section>
+            <img src="images/home-children-1.jpg" alt="Children in a creche">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Feed the Babies Fund. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var links = document.querySelectorAll("nav a");
+            for (var i = 0; i < links.length; i++) {
+                if (links[i].href === window.location.href) {
+                    links[i].classList.add("active");
+                }
+            }
+        });
+    </script>
+</body>
+</html>

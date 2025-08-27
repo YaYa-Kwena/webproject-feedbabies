@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed the Babies Fund - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Feed the Babies Fund</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Contact info and map placeholder -->
+        <h2>Contact Us</h2>
+        <img src="images/contact-1.jpg" alt="Contact Feed the Babies Fund">
+        <p><strong>Phone Number:</strong> +27 031 201 4682</p>
+        <p><strong>Email:</strong> info@feedthebabiesfund.org.za</p>
+        <p><strong>Address:</strong> 59 Richden's Centre, Old Main Road, HILLCREST, ETHEKWINI, KZN</p>
+        <p><strong>Phone Number:</strong> +27 079 212 4399</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Feed the Babies Fund. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var links = document.querySelectorAll("nav a");
+            for (var i = 0; i < links.length; i++) {
+                if (links[i].href === window.location.href) {
+                    links[i].classList.add("active");
+                }
+            }
+        });
+    </script>
+</body>
+</html>
