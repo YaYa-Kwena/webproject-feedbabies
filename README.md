@@ -33,6 +33,13 @@ HTML structure created, content integrated, sitemap included.
 - Side-Tab Navigation: The "About," "Services," and "Enquiry" pages now feature a side-tab navigation system to better organize the large amount of content.
 - Sticky Footer: The footer now remains at the bottom of the screen, regardless of content height.
 
+- ## Part 3 Details
+- Image Gallery with Lightbox: An image gallery has been added to the 'About Us' page, featuring a lightbox for viewing full-size images.
+- Embedded Google Map: The 'Contact Us' page now includes a responsive, embedded Google Map to help users locate the organization.
+- Contact and Enquiry Forms: Interactive forms have been implemented on the 'Contact Us' and 'Enquiry' pages. These forms include client-side validation and simulated AJAX submission for an improved user experience.
+- SEO Enhancements: Search engine optimization has been improved through the creation of `robots.txt` and `sitemap.xml` files, the addition of meta descriptions to all pages, and the use of more descriptive alt text for images.
+- Dynamic Content Animations: Fade-in animations have been added to content sections to enhance the user experience when navigating between tabs.
+
 ## Sitemap
 - Home
   - About
