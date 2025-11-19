@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Feed the Babies Fund. Find our phone number, email address, and physical address. Send us a message using our contact form.">
     <title>Feed the Babies Fund - Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -23,11 +24,36 @@
     <main>
         <!-- Contact info and map placeholder -->
         <h2>Contact Us</h2>
-        <img src="images/contact-1.jpg" alt="Contact Feed the Babies Fund">
+        <img src="images/contact-1.jpg" alt="A friendly staff member at Feed the Babies Fund, ready to assist with enquiries.">
         <p><strong>Phone Number:</strong> +27 031 201 4682</p>
         <p><strong>Email:</strong> info@feedthebabiesfund.org.za</p>
         <p><strong>Address:</strong> 59 Richden's Centre, Old Main Road, HILLCREST, ETHEKWINI, KZN</p>
         <p><strong>Phone Number:</strong> +27 079 212 4399</p>
+
+        <h3>Find Us Here</h3>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4107.719274811461!2d30.761914800000003!3d-29.779691799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10b9528fae06b75%3A0x6deb3bfb874efbdb!2sRichdens%20Village%20Centre!5e1!3m2!1sen!2sza!4v1763561280601!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="form-container">
+            <h3>Send us a Message</h3>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <div id="form-status"></div>
+            </form>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 Feed the Babies Fund. All rights reserved.</p>
